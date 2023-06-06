@@ -34,7 +34,7 @@ export class MiniMapComponent implements AfterViewInit {
       style: 'mapbox://styles/mapbox/streets-v12', // style URL
       center: coords, // starting position [lng, lat]
       zoom: this.zoom,
-      dragPan: false, // starting zoom
+      interactive: false, // starting zoom
     });
   }
 }
